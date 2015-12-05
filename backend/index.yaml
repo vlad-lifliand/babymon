@@ -1,0 +1,6 @@
+indexes:
+- kind: ActivityLog
+  ancestor: yes
+  properties:
+  - name: time
+    direction: desc
