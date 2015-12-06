@@ -28,8 +28,8 @@ class ActivityLog(ndb.Model):
       if hours:
         return '{} hours {:02} minutes {:02} seconds ago'.format(hours, minutes, seconds)
       if minutes:
-        return '{:02} minutes {:02} seconds ago'.format(minutes, seconds)
-      return '{:02} seconds ago'.format(minutes, seconds)
+        return '{} minutes {:02} seconds ago'.format(minutes, seconds)
+      return '{} seconds ago'.format(seconds)
 
 
 class StatusPageHandler(webapp2.RequestHandler):
