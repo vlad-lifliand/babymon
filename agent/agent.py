@@ -6,7 +6,7 @@ import requests
 
 _FORMAT = pyaudio.paInt16
 _RATE = 8000
-_CHUNK_SIZE = _RATE / 2
+_CHUNK_SIZE = _RATE // 2
 _SEGMENT_LENGTH = 30  # seconds
 _NORMALIZATION_FACTOR = 50
 

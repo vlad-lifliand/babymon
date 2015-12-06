@@ -1,4 +1,4 @@
-#!/bin/bash -i
+#!/bin/bash
 
 cd /home/pi/babymon/agent
 python3 agent.py --url=$1
